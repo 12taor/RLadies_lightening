@@ -1,0 +1,39 @@
+Pie Charts: Friend or Foe?
+========================================================
+author: Rachel Tao, MPH
+date: 10/19/2021
+autosize: true
+
+Why do we use pie charts?
+========================================================
+
+- Florence Nightingale invented the pie chart
+- Pie charts are one of the first data visualizations we learn about
+
+Some people really hate pie charts.
+========================================================
+
+<img src="waffle_documentation.png">
+
+^ from the R documentation for the waffle package
+
+R does not make it easy to make a pie chart
+========================================================
+
+```{r}
+summary(cars)
+```
+
+Maybe waffle charts are the way to go
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Other options
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
